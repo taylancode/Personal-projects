@@ -12,7 +12,7 @@ coin = "avalanche-2"
 t = open("tokens.json", "r")
 tokens = json.load(t, parse_float=str)
 TOKEN = tokens[coin]
-guild_id = tokens["guild"]
+guild_id = int(tokens["guild"])
 
 #Logging functionality
 logging.basicConfig(
