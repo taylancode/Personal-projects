@@ -6,7 +6,7 @@ import logging
 import json
 
 #Set variable due to bots being individual/unique
-coin = "wonderland"
+coin = "project-x-nodes"
 
 #Gathering discord API token and guild ID from JSON file
 t = open("tokens.json", "r")
